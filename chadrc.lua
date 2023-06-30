@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---@type ChadrcConfig
 local M = {}
 
@@ -18,3 +19,9 @@ M.plugins = "custom.plugins"
 M.mappings = require "custom.mappings"
 
 return M
+=======
+---@type ChadrcConfig 
+ local M = {}
+ M.ui = {theme = 'ashes'}
+ return M
+>>>>>>> 099d7f3a50859f020647d6a169d735fa6c06bc05
